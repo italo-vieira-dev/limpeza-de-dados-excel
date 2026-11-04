@@ -1,78 +1,208 @@
-📊 Limpeza e Tratamento de Dados com Excel
+Limpeza e Preparação de Dados com Excel
 
 📌 Sobre o projeto
 
-Este projeto apresenta a aplicação de técnicas de limpeza, tratamento e organização de dados utilizando o Microsoft Excel.
+Este projeto tem como objetivo aplicar técnicas de limpeza, tratamento e padronização de dados em uma base de vendas de bicicletas, utilizando o Microsoft Excel.
 
-O trabalho foi desenvolvido como prática de aprendizagem durante meus estudos no curso Fundamentos de Análise de Dados, da Cisco Networking Academy.
+A atividade faz parte do curso Fundamentos de Análise de Dados, oferecido pela Cisco Networking Academy, e foi utilizada como referência para desenvolver habilidades práticas relacionadas à qualidade e à preparação de dados.
 
-O objetivo é desenvolver habilidades relacionadas à preparação e à qualidade dos dados, uma etapa fundamental do processo de análise de dados.
+O projeto documenta a identificação de inconsistências, os procedimentos de correção e a validação dos dados para utilização em análises futuras.
 
 🎯 Objetivos
 
-Identificar possíveis inconsistências na base de dados.
+Identificar e tratar registros duplicados.
 
-Realizar a limpeza e a padronização das informações.
+Localizar e analisar células vazias.
 
-Organizar os dados para facilitar sua interpretação.
+Separar informações contidas em uma mesma coluna.
 
-Preparar a base para futuras análises.
+Identificar e remover espaços desnecessários.
 
-🛠️ Ferramentas utilizadas
+Detectar valores potencialmente inconsistentes em campos numéricos.
 
-Microsoft Excel: manipulação, limpeza e organização dos dados.
+Padronizar informações categóricas.
 
-GitHub: documentação e compartilhamento do projeto.
+Verificar e corrigir possíveis erros ortográficos.
 
-🔎 Etapas do projeto
+Garantir maior consistência e confiabilidade à base de dados.
 
-1. Exploração inicial dos dados
+🛠️ Ferramentas e recursos utilizados
 
-Inspeção da base para compreender sua estrutura, identificar as colunas e verificar possíveis problemas de qualidade.
+Ferramenta: Microsoft Excel
 
-2. Limpeza dos dados
+Recursos e funções:
 
-Aplicação das técnicas necessárias, como:
+Formatação Condicional
 
-Identificação de registros duplicados.
+Remover Duplicatas
 
-Verificação de valores ausentes.
+Texto para Colunas
 
-Correção de inconsistências.
+Função ARRUMAR (TRIM)
 
-Padronização de formatos.
+Função NÚM.CARACT (LEN)
 
-3. Organização e formatação
+Localizar e Substituir
 
-Organização da estrutura da planilha, garantindo maior consistência e facilidade de utilização.
+Verificação Ortográfica
 
-4. Validação
+📂 Base de dados
 
-Revisão das alterações realizadas para verificar a integridade dos dados após o tratamento.
+O conjunto de dados contém informações relacionadas às vendas de bicicletas, incluindo pedidos, clientes, produtos e informações financeiras.
 
-📸 Antes e depois
+Entre os campos presentes na base estão:
 
-Nesta seção serão apresentadas imagens demonstrando as alterações realizadas na base de dados.
+Identificação dos pedidos
 
-Antes do tratamento:
+Datas das vendas
 
-[Inserir imagem da planilha original]
+Idade e gênero dos clientes
 
-Depois do tratamento:
+País e localização
 
-[Inserir imagem da planilha tratada]
+Descrição dos produtos
 
-📈 Resultados
+Quantidade vendida
 
-[Descrever os resultados reais obtidos após a conclusão da atividade, incluindo problemas identificados, correções realizadas e melhorias observadas.]
+Custos e preços unitários
+
+Receita e lucro
+
+Origem: Material educacional do curso da Cisco Networking Academy.
+
+🔎 Etapas de limpeza e tratamento
+
+1. Identificação e remoção de duplicatas
+
+Utilização da Formatação Condicional para identificar registros potencialmente duplicados.
+
+Após a identificação, os registros serão analisados e as duplicatas confirmadas serão removidas utilizando a ferramenta Remover Duplicatas.
+
+Evidência: [Inserir captura de tela]
+
+2. Identificação de células vazias
+
+Aplicação da Formatação Condicional para destacar células sem preenchimento.
+
+Os valores ausentes serão analisados para identificar a necessidade de correção e seus possíveis impactos na qualidade da base.
+
+Evidência: [Inserir captura de tela]
+
+3. Separação de informações textuais
+
+Utilização da ferramenta Texto para Colunas no campo Product_Description.
+
+Serão aplicados delimitadores de espaço e vírgula para separar informações relacionadas à descrição do produto, como tamanho e cor.
+
+O objetivo é facilitar a organização e a utilização individual dessas informações em análises posteriores.
+
+Evidência: [Inserir captura de tela]
+
+4. Remoção de espaços extras
+
+Identificação de inconsistências causadas por espaços desnecessários em campos de texto.
+
+Aplicação das funções:
+
+=ARRUMAR(A2) — remove espaços excedentes e mantém um único espaço entre palavras.
+
+=NÚM.CARACT(A2) — conta a quantidade de caracteres de uma célula, incluindo espaços.
+
+A comparação da quantidade de caracteres permitirá verificar diferenças entre valores aparentemente iguais e validar as correções.
+
+Evidência: [Inserir captura de tela]
+
+5. Identificação de valores numéricos inconsistentes
+
+Aplicação da Formatação Condicional para destacar valores iguais a zero em campos relacionados a custos e preços unitários.
+
+Os registros identificados serão analisados como possíveis inconsistências, evitando alterações automáticas sem verificação.
+
+Evidência: [Inserir captura de tela]
+
+6. Padronização de dados categóricos
+
+Utilização da ferramenta Localizar e Substituir para padronizar os valores da coluna de gênero.
+
+Valor original
+
+Valor padronizado
+
+F
+
+Feminino
+
+M
+
+Masculino
+
+A padronização facilita a interpretação e o agrupamento dos registros.
+
+Evidência: [Inserir captura de tela]
+
+7. Verificação ortográfica
+
+Utilização do recurso de verificação ortográfica do Excel para identificar possíveis erros de escrita.
+
+O objetivo é evitar que diferenças ortográficas prejudiquem filtros, agrupamentos, pesquisas e consultas realizadas na base.
+
+Evidência: [Inserir captura de tela]
+
+📊 Resultados
+
+Esta seção será preenchida após a execução e validação do tratamento.
+
+Indicador
+
+Resultado
+
+Registros na base original
+
+A preencher
+
+Registros duplicados removidos
+
+A preencher
+
+Células vazias identificadas
+
+A preencher
+
+Valores textuais padronizados
+
+A preencher
+
+Valores numéricos suspeitos
+
+A preencher
+
+Registros na base final
+
+A preencher
+
+📸 Comparação antes e depois
+
+Base original
+
+[Inserir imagem da base antes do tratamento]
+
+Base tratada
+
+[Inserir imagem da base após o tratamento]
 
 💡 Aprendizados
 
-Este projeto contribuiu para o desenvolvimento dos meus conhecimentos sobre preparação e qualidade dos dados, reforçando a importância de trabalhar com informações organizadas e consistentes antes de iniciar uma análise.
+Seção a ser concluída após a atividade.
 
-📚 Referência de aprendizagem
+Este projeto busca consolidar conhecimentos sobre qualidade de dados, identificação de inconsistências e utilização de recursos do Excel para preparação de bases de dados.
+
+Também permite exercitar a documentação das etapas de tratamento e a importância da validação antes de realizar análises.
+
+📚 Referências
 
 Curso: Fundamentos de Análise de Dados
 Instituição: Cisco Networking Academy
-Ferramenta principal: Microsoft Excel
+Atividade: Bike Sales — Lab 3.4.7
+Ferramenta: Microsoft Excel
 
+Observação: Projeto educacional de portfólio, desenvolvido a partir de uma atividade prática do curso. A publicação dos dados originais dependerá das permissões de uso do material.
