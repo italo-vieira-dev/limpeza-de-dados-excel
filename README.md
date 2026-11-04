@@ -78,7 +78,22 @@ Utilização da Formatação Condicional para identificar registros potencialmen
 
 Após a identificação, os registros serão analisados e as duplicatas confirmadas serão removidas utilizando a ferramenta Remover Duplicatas.
 
-Evidência: [Inserir captura de tela]
+Evidência: 
+<img width="1021" height="717" alt="1sem-edição" src="https://github.com/user-attachments/assets/4a69bffb-8582-4512-bd64-ef35bec1b31d" />
+<img width="1021" height="700" alt="2" src="https://github.com/user-attachments/assets/ce292c1f-9be6-4e54-a991-e8eacdcef8e6" />
+<img width="1022" height="720" alt="2 1" src="https://github.com/user-attachments/assets/519e5b90-9295-4677-aa0b-671c05bec461" />
+<img width="1020" height="697" alt="3" src="https://github.com/user-attachments/assets/e6ff2c01-5164-40d8-966d-8181c53bb1a6" />
+<img width="1021" height="721" alt="4" src="https://github.com/user-attachments/assets/696ca1d0-de01-405e-96ac-77f0ad1f6308" />
+<img width="1021" height="722" alt="5" src="https://github.com/user-attachments/assets/83d382b1-5969-4310-8501-d50d161d5316" />
+<img width="1022" height="719" alt="6" src="https://github.com/user-attachments/assets/88b246a9-fa14-4ab3-8c00-596377a5043d" />
+<img width="1022" height="718" alt="7" src="https://github.com/user-attachments/assets/50a2efa2-1e2a-429c-b66b-d2ad4e90f691" />
+<img width="1022" height="696" alt="8" src="https://github.com/user-attachments/assets/d0770a77-30b3-425a-85f5-a7736c2a060d" />
+
+Observação: Após a identificação dos registos repetidos da coluna A, verífiquei que somente a linha 8 e 9 continham todas as informações iguais, na linha 2 e 3 foi identificado que o número de registro foi repetido por conta de um erro manual do operador da planilha e corrigido consecutivamente. e a linha 8 foi removida como mostram nas evidências.
+
+<img width="1363" height="695" alt="9" src="https://github.com/user-attachments/assets/265d4b71-d880-499b-a399-8b34ecd91d2a" />
+<img width="1360" height="716" alt="10" src="https://github.com/user-attachments/assets/e043c8fe-daab-4ef2-a913-c828ec58616e" />
+<img width="1362" height="697" alt="11" src="https://github.com/user-attachments/assets/f52e802c-1ef1-460e-b8ad-7d9378a21aee" />
 
 2. Identificação de células vazias
 
