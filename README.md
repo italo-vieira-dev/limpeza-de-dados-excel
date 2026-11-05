@@ -89,7 +89,7 @@ Evidência:
 <img width="1022" height="718" alt="7" src="https://github.com/user-attachments/assets/50a2efa2-1e2a-429c-b66b-d2ad4e90f691" />
 <img width="1022" height="696" alt="8" src="https://github.com/user-attachments/assets/d0770a77-30b3-425a-85f5-a7736c2a060d" />
 
-Observação: Após a identificação dos registos repetidos da coluna A, verífiquei que somente a linha 8 e 9 continham todas as informações iguais, na linha 2 e 3 foi identificado que o número de registro foi repetido por conta de um erro manual do operador da planilha e corrigido consecutivamente. e a linha 8 foi removida como mostram nas evidências.
+Observação: Após a identificação dos registos repetidos da coluna Sales_Order, verífiquei que somente a linha 8 e 9 continham todos os dados iguais, na linha 2 e 3 foi identificado que o número de registro foi repetido por conta de um erro manual do operador da planilha e foi corrigido consecutivamente. A linha 8 foi removida como mostram nas evidências.
 
 <img width="1363" height="695" alt="9" src="https://github.com/user-attachments/assets/265d4b71-d880-499b-a399-8b34ecd91d2a" />
 <img width="1360" height="716" alt="10" src="https://github.com/user-attachments/assets/e043c8fe-daab-4ef2-a913-c828ec58616e" />
@@ -107,7 +107,8 @@ Evidência:
 <img width="1363" height="721" alt="3" src="https://github.com/user-attachments/assets/2af57f57-e564-407a-94a9-179c3e2b6fc5" />
 <img width="1365" height="718" alt="4" src="https://github.com/user-attachments/assets/8aed0c18-caad-47a7-8a39-e64219d7b774" />
 <img width="1363" height="722" alt="5" src="https://github.com/user-attachments/assets/c3a6609f-6e38-46a4-b5d1-ad37eb3c938e" />
-Observação: Na coluna C11 foi adicionado o dia e na coluna G16 foi adicionado a faixa etária porém na coluna M12 foi necessário verificar a descrição do produto de acordo com o preço unitário, e na coluna N13 foi necessário verificar a quantidade com o calculo de Preço unitário - Custo unitário isso gera o valor do lucro multiplicado na quantidade de bicicletas ou seja 1 unidade na célula N23 conforme mostrado nas evidêcias
+
+Observação: Na célula C11 foi adicionado o dia e na célula G16 foi adicionado a faixa etária porém na célula M12 foi necessário verificar a descrição do produto de acordo com o preço unitário, e na célula N13 foi necessário verificar a quantidade com o calculo de Preço unitário - Custo unitário isso gera o valor do lucro multiplicado na quantidade de bicicletas ou seja 1 unidade na célula N23 conforme mostrado nas evidêcias
 
 
 3. Separação de informações textuais
@@ -138,10 +139,25 @@ Aplicação das funções:
 
 A comparação da quantidade de caracteres permitirá verificar diferenças entre valores aparentemente iguais e validar as correções, para isso, adicionei duas colunas ao lado da coluna Estado "QT.CHAR", "TRIM", para validar a quantidade de caracteres e filtros nas colunas "Country" e "State" assim identificando as divergências e corrigindo
 
-Observação: Na coluna I foi encontrado divergência como o nome do país "United States". Ele aparece em 3 formatos diferentes, 2 formatos ocupando 14 caracteres e 1 formato ocupando 13 caracteres que é o correto. Utilizei a função =ARRUMAR para corrigir 
+Evidência: 
+<img width="1363" height="718" alt="1" src="https://github.com/user-attachments/assets/511e5385-6588-4fd8-a8d8-8fcd5b02940e" />
+<img width="1363" height="717" alt="2" src="https://github.com/user-attachments/assets/42f651b0-a843-4c88-9a42-d503c632ca10" />
+<img width="1365" height="721" alt="3" src="https://github.com/user-attachments/assets/a6d07388-d9e6-4fec-9e4d-5bcb0522c23e" />
+<img width="1361" height="716" alt="4" src="https://github.com/user-attachments/assets/ecb97533-aae7-4634-845b-c012250738bf" />
+<img width="1364" height="719" alt="5" src="https://github.com/user-attachments/assets/35a51b90-c1cd-424c-a9fd-7368faa0b031" />
+
+Observação: Após a filtragem e contagem de caracteres na coluna COUNTRY foi encontrado divergência como o nome do país "United States". Ele aparece em 3 formatos diferentes, 2 formatos ocupando 14 caracteres e 1 formato ocupando 13 caracteres que é o correto. Utilizei a função =ARRUMAR para corrigir 
+
+<img width="1364" height="717" alt="6" src="https://github.com/user-attachments/assets/02f0f32d-da40-441f-b78f-b8afc225a215" />
+<img width="1363" height="717" alt="7" src="https://github.com/user-attachments/assets/d5ba4ad4-c2e5-479f-b6d5-e5fe9b24d931" />
+<img width="1364" height="715" alt="8" src="https://github.com/user-attachments/assets/9b92f478-4e59-4951-9273-a80b93b9f750" />
+<img width="1363" height="718" alt="9" src="https://github.com/user-attachments/assets/25753f31-a1bd-45dd-a70d-9f41abf2839d" />
+<img width="1365" height="718" alt="10" src="https://github.com/user-attachments/assets/b4739091-47f9-4bfb-820e-dc6cc506090c" />
+<img width="1365" height="720" alt="11" src="https://github.com/user-attachments/assets/17b5ddbb-5443-4a34-a60d-b662b106d440" />
 
 
-Evidência: [Inserir captura de tela]
+Observação: Após a correção dos caracteres na coluna TRIM, copiei os dados corrigidos e lancei na coluna Country conferindo a quantidade de caracteres e ortografia. Na coluna State não foi encontrada nenhuma divergência. Após as correções foram excluidas as colunas QT.CHAR e TRIM
+
 
 5. Identificação de valores numéricos inconsistentes
 
@@ -149,7 +165,18 @@ Aplicação da Formatação Condicional para destacar valores iguais a zero em c
 
 Os registros identificados serão analisados como possíveis inconsistências, evitando alterações automáticas sem verificação.
 
-Evidência: [Inserir captura de tela]
+Evidência: 
+
+<img width="1365" height="719" alt="1" src="https://github.com/user-attachments/assets/72e38e22-4483-4ace-ada6-248dd1dafb4b" />
+<img width="1364" height="721" alt="2" src="https://github.com/user-attachments/assets/ac78db00-d108-42d5-b417-5039cd0f91c8" />
+<img width="1365" height="701" alt="3" src="https://github.com/user-attachments/assets/567f8e79-1d91-4660-a1b9-b597836b3b81" />
+<img width="1365" height="711" alt="4" src="https://github.com/user-attachments/assets/5e477d28-7345-4474-8c3f-4b656b058a0c" />
+<img width="1363" height="723" alt="5" src="https://github.com/user-attachments/assets/a07137a7-b32c-4e7c-a469-af4308abffbf" />
+
+
+Observação: Após a identificação dos números zerados foram feitas as correções baseada nos dados já preenchidos. Na célula Q5 foi identificado que a descrição da bike era uma Mountain-200 na cor Black, e o valor unitário deste modelo é 1252, com isso já corrigiu a célula T5 pois nela há a função de multiplicação da Quantidade pelo preço unitário. Na célula R8 foi identificado que a descrição da bike era uma Mountain-400-W na cor Silver e o valor unitário deste modelo é 2320, com isso já corrigiu a célula U8 pois nela contém a função de multiplicação da Quantidade pelo Preço Unitário
+
+
 
 6. Padronização de dados categóricos
 
