@@ -196,7 +196,13 @@ Masculino
 
 A padronização facilita a interpretação e o agrupamento dos registros.
 
-Evidência: [Inserir captura de tela]
+Evidência: 
+<img width="1363" height="767" alt="1" src="https://github.com/user-attachments/assets/1d8b97ce-637f-411e-98cc-32483fc37469" />
+<img width="1365" height="721" alt="2" src="https://github.com/user-attachments/assets/dd074af7-0c92-444c-a225-5822d942f7cc" />
+<img width="1365" height="719" alt="3" src="https://github.com/user-attachments/assets/5674bd5a-9611-45db-9052-b4a75720e6de" />
+<img width="1365" height="719" alt="4" src="https://github.com/user-attachments/assets/21e7c2da-eba3-463d-ad3c-78ecf546b7f6" />
+<img width="1365" height="720" alt="5" src="https://github.com/user-attachments/assets/1a1e5020-f45f-4b68-9710-0568634831a8" />
+
 
 7. Verificação ortográfica
 
@@ -204,7 +210,9 @@ Utilização do recurso de verificação ortográfica do Excel para identificar 
 
 O objetivo é evitar que diferenças ortográficas prejudiquem filtros, agrupamentos, pesquisas e consultas realizadas na base.
 
-Evidência: [Inserir captura de tela]
+Evidência: 
+<img width="1365" height="720" alt="Captura de tela 2026-11-05 150029" src="https://github.com/user-attachments/assets/f9c5a84a-1033-4b2b-a1f3-f4ecefb1b3fe" />
+
 
 📊 Resultados
 
@@ -216,45 +224,63 @@ Resultado
 
 Registros na base original
 
-A preencher
+89
 
 Registros duplicados removidos
 
-A preencher
+4 - 1
 
 Células vazias identificadas
 
-A preencher
+4
 
 Valores textuais padronizados
 
-A preencher
+88
 
 Valores numéricos suspeitos
 
-A preencher
+0
 
 Registros na base final
 
-A preencher
+88
 
 📸 Comparação antes e depois
 
 Base original
 
-[Inserir imagem da base antes do tratamento]
+<img width="1365" height="715" alt="Antes" src="https://github.com/user-attachments/assets/e0fb5037-2bfb-465c-971b-22f252638641" />
+
 
 Base tratada
 
-[Inserir imagem da base após o tratamento]
+<img width="1365" height="723" alt="Depois" src="https://github.com/user-attachments/assets/a0677fd1-1df5-4361-940e-b6a158d92e64" />
+
 
 💡 Aprendizados
 
-Seção a ser concluída após a atividade.
+Após a execução das etapas de limpeza e preparação dos dados, foram realizadas melhorias na estrutura, organização e padronização da base de vendas de bicicletas.
 
-Este projeto busca consolidar conhecimentos sobre qualidade de dados, identificação de inconsistências e utilização de recursos do Excel para preparação de bases de dados.
+Entre os principais resultados obtidos, destacam-se:
 
-Também permite exercitar a documentação das etapas de tratamento e a importância da validação antes de realizar análises.
+Tratamento de duplicatas: identificação e remoção de registros duplicados, conforme os critérios definidos durante a limpeza.
+
+Padronização de textos: correção de espaços excedentes e inconsistências na escrita dos valores.
+
+Estruturação de informações: separação dos dados da coluna Product_Description, permitindo trabalhar individualmente com características dos produtos.
+
+Padronização de categorias: substituição das abreviações de gênero por descrições completas.
+
+Verificação de valores numéricos: identificação de registros com custos e preços unitários zerados para análise de possíveis inconsistências.
+
+Validação dos dados: verificação de células vazias e possíveis erros ortográficos.
+
+Conclusão
+
+O projeto permitiu aplicar técnicas fundamentais de limpeza e preparação de dados no Excel, reforçando a importância da identificação e do tratamento de inconsistências antes da realização de análises.
+
+As atividades contribuíram para o desenvolvimento de habilidades relacionadas à qualidade dos dados, padronização de informações e organização de bases para análises futuras.
 
 📚 Referências
 
@@ -262,5 +288,3 @@ Curso: Fundamentos de Análise de Dados
 Instituição: Cisco Networking Academy
 Atividade: Bike Sales — Lab 3.4.7
 Ferramenta: Microsoft Excel
-
-Observação: Projeto educacional de portfólio, desenvolvido a partir de uma atividade prática do curso. A publicação dos dados originais dependerá das permissões de uso do material.
