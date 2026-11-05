@@ -101,7 +101,14 @@ Aplicação da Formatação Condicional para destacar células sem preenchimento
 
 Os valores ausentes serão analisados para identificar a necessidade de correção e seus possíveis impactos na qualidade da base.
 
-Evidência: [Inserir captura de tela]
+Evidência: 
+<img width="1364" height="699" alt="1" src="https://github.com/user-attachments/assets/066f9715-5a8a-49a9-a2e7-59a6caaf8392" />
+<img width="1364" height="720" alt="2" src="https://github.com/user-attachments/assets/78440dec-276c-4e4c-8f04-e756c57704fc" />
+<img width="1363" height="721" alt="3" src="https://github.com/user-attachments/assets/2af57f57-e564-407a-94a9-179c3e2b6fc5" />
+<img width="1365" height="718" alt="4" src="https://github.com/user-attachments/assets/8aed0c18-caad-47a7-8a39-e64219d7b774" />
+<img width="1363" height="722" alt="5" src="https://github.com/user-attachments/assets/c3a6609f-6e38-46a4-b5d1-ad37eb3c938e" />
+Observação: Na coluna C11 foi adicionado o dia e na coluna G16 foi adicionado a faixa etária porém na coluna M12 foi necessário verificar a descrição do produto de acordo com o preço unitário, e na coluna N13 foi necessário verificar a quantidade com o calculo de Preço unitário - Custo unitário isso gera o valor do lucro multiplicado na quantidade de bicicletas ou seja 1 unidade na célula N23 conforme mostrado nas evidêcias
+
 
 3. Separação de informações textuais
 
@@ -111,7 +118,13 @@ Serão aplicados delimitadores de espaço e vírgula para separar informações 
 
 O objetivo é facilitar a organização e a utilização individual dessas informações em análises posteriores.
 
-Evidência: [Inserir captura de tela]
+Evidência: 
+<img width="1364" height="717" alt="1" src="https://github.com/user-attachments/assets/4b1dbc77-bad0-4a72-89cd-8b7ca1fbaa8e" />
+<img width="1363" height="715" alt="2" src="https://github.com/user-attachments/assets/dd0466e5-7291-41ec-919c-69d7025c50de" />
+<img width="1363" height="720" alt="3" src="https://github.com/user-attachments/assets/1532bdaa-8230-436b-88cc-fc88e9f1ed9e" />
+<img width="1364" height="717" alt="4" src="https://github.com/user-attachments/assets/b4f3c048-7b77-4573-b5a7-e376a211cebb" />
+<img width="1364" height="721" alt="5" src="https://github.com/user-attachments/assets/acdad720-2874-41e4-bb28-65170d544a31" />
+Observação: Foram adicionadas duas colunas ao lado da coluna de descrição do Produto, "Color", "Size", para a descrição de cores e tamanho conforme as evidências
 
 4. Remoção de espaços extras
 
@@ -123,7 +136,10 @@ Aplicação das funções:
 
 =NÚM.CARACT(A2) — conta a quantidade de caracteres de uma célula, incluindo espaços.
 
-A comparação da quantidade de caracteres permitirá verificar diferenças entre valores aparentemente iguais e validar as correções.
+A comparação da quantidade de caracteres permitirá verificar diferenças entre valores aparentemente iguais e validar as correções, para isso, adicionei duas colunas ao lado da coluna Estado "QT.CHAR", "TRIM", para validar a quantidade de caracteres e filtros nas colunas "Country" e "State" assim identificando as divergências e corrigindo
+
+Observação: Na coluna I foi encontrado divergência como o nome do país "United States". Ele aparece em 3 formatos diferentes, 2 formatos ocupando 14 caracteres e 1 formato ocupando 13 caracteres que é o correto. Utilizei a função =ARRUMAR para corrigir 
+
 
 Evidência: [Inserir captura de tela]
 
